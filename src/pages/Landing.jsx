@@ -12,7 +12,7 @@ function Landing() {
                         <h2>Video Player2025</h2>
                         <p style={{ textAlign: 'justify' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quisquam maiores, sed ratione possimus expedita vel beatae, consectetur delectus, nostrum ipsa aspernatur. Aspernatur dolores molestiae consequatur unde sit labore sapiente.</p>
                         <div className='d-grid'>
-                            <Link className='btn btn-success' to={'/home'}>Go</Link>
+                            <Link className='btn btn-success' to={'/log'}>Go</Link>
                         </div>
                     </Col>
                     <Col></Col>

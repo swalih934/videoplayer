@@ -7,6 +7,8 @@ import History from './pages/History'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import { Route, Routes } from 'react-router-dom'
+import Login from './pages/Login'
+import Register from './pages/Register'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -18,6 +20,9 @@ function App() {
         <Route path='/' element={<Landing />} />
         <Route path='/home' element={<Home />} />
         <Route path='/his' element={<History />} />
+        <Route path='/log' element={<Login />} />
+        <Route path='/reg' element={<Register />} />
+
       </Routes>
       <Footer />
 
